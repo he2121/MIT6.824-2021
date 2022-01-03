@@ -31,23 +31,23 @@ my-blog		-->   个人学习过程想法，笔记记录，lab 实现等相关博�
 导航目录:
 已完成（个人实现部分）：
 
-- [x] [Lab1-MapReduce-实现过程]()
-- [x] [Lab2A&2B-Raft-leader选举与日志同步-实现过程]()
-- [x] [Lab2C-Raft-持久化状态与日志同步优化-实现过程]()
-- [x] [Lab2D-Raft-快照-实现过程]()
+- [x] [Lab1-MapReduce-实现过程](https://github.com/he2121/MIT6.824-2021/tree/main/my-blog)
+- [x] [Lab2A&2B-Raft-leader选举与日志同步-实现过程](https://github.com/he2121/MIT6.824-2021/blob/main/my-blog/6.824-lab2A%202B%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B.md)
+- [x] [Lab2C-Raft-持久化状态与日志同步优化-实现过程](https://github.com/he2121/MIT6.824-2021/blob/main/my-blog/6.824-lab2C%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B.md)
+- [x] [Lab2D-Raft-快照-实现过程](https://github.com/he2121/MIT6.824-2021/blob/main/my-blog/6.824-lab2D%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B.md)
 
 已完成（翻译部分）：
 
-- [x] [Lecture-01-笔记-MapReduce-翻译]()
-- [x] [Lecture-02-笔记-Go并发-翻译]()
-- [x] [Lecture-06-笔记-Raft(1)-翻译]()
-- [x] [Lab1-实验文档-MapReduce-翻译]()
-- [x] [Lab2-实验文档-Raft-翻译]()
+- [x] [Lecture-01-笔记-MapReduce-翻译](https://github.com/he2121/MIT6.824-2021/blob/main/docs-cn/lec-note-01.md)
+- [x] [Lecture-02-笔记-Go并发-翻译](https://github.com/he2121/MIT6.824-2021/blob/main/docs-cn/lec-note-02.md)
+- [x] [Lecture-06-笔记-Raft(1)-翻译](https://github.com/he2121/MIT6.824-2021/blob/main/docs-cn/lect-note-06.md)
+- [x] [Lab1-实验文档-MapReduce-翻译](https://github.com/he2121/MIT6.824-2021/blob/main/docs-cn/lab-01.md)
+- [x] [Lab2-实验文档-Raft-翻译](https://github.com/he2121/MIT6.824-2021/blob/main/docs-cn/lab-02.md)
 
 
 Todo（翻译部分）：
 
-- [ ] Lecture 07 笔记翻译
+- [ ] [Lecture-07-笔记-Raft(2)-翻译](https://github.com/he2121/MIT6.824-2021/blob/main/docs-cn/lect-note-07.md)
 - [ ] Lab3-实验文档
 - [ ] ...
 
