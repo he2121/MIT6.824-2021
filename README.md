@@ -5,7 +5,7 @@ MIT6.824 Distributed Systems Engineering 2021 个人学习记录
 
 [B 站视频学习](https://www.bilibili.com/video/BV1R7411t71W?from=search&seid=17776370395477379090&spm_id_from=333.337.0.0)
 
-[个人博客在线阅读](https://he2121.github.io/xiaohe-blog/)
+[个人博客在线阅读](https://he2121.github.io/xiaohe-blog/tags/6.824/)
 
 声明：
 
