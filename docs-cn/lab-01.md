@@ -6,7 +6,7 @@ tags: ["6.824", "翻译", "lab"]
 
 # 6.824 实验 1: MapReduce
 
-[实验 1 原地址](https://pdos.csail.mit.edu/6.824/labs/lab-mr.html)
+[lab1 源文档地址](https://pdos.csail.mit.edu/6.824/labs/lab-mr.html)
 
 截止日期：2月26日（星期五）23:59 ET（麻省理工时间）。
 
@@ -16,7 +16,7 @@ tags: ["6.824", "翻译", "lab"]
 
 在这个实验室，你将建立一个 MapReduce 系统。你将实现一个调用 Map 和 Reduce 函数并处理读写文件的 worker 程序，以及一个向 worker 分配任务和应对失败的 coodinator 程序。你将构建类似于 [MapReduce 论文 ](http://static.googleusercontent.com/media/research.google.com/zh-CN//archive/mapreduce-osdi04.pdf) 的东西(注意：实验使用 coordinator，而不是论文的 master)。
 
-## 入门
+## 入门指南
 
 你需要进行 [Go 设置](https://pdos.csail.mit.edu/6.824/labs/go.html)
 
@@ -163,7 +163,7 @@ $
 
 ## 提示
 
-- 你可以从修改 `mr/worker` 的 `worker()` 方法入手：给 coodinator 发送一个获取任务执行的 RPC 请求。然后修改 coodinator，回复一个还没开始 map 任务的文件名。然后修改 `Worker`以读取该文件并调用应用程序 `Map`函数，如`mrsequential.go`中的内容
+- 你可以从修改 `mr/worker` 的 `worker()` 方法入手：给 coodinator 发送一个获取任务执行的 RPC 请求。然后修改 `mr/coodinator.go`文件，回复这个 RPC 请求一个可用的 map 任务。然后修改 `Worker`以读取该任务输入文件，并调用应用程序 `Map`函数处理，如`mrsequential.go`中的处理过程
 - 应用程序的 Map 和 Reduce 函数在运行时使用 Go 插件包加载，文件名以.so结尾。
 - 如果你改变了`mr/`目录中的任何东西，你可能需要重新构建你使用的任何 MapReduce 插件，用类似 `go build -race -buildmode=plugin .../mrapps/wc.go` 这样的命令。
 - 这个实验室依赖于 worker 共享一个文件系统。当所有 worker 都在同一台机器上运行时，这很简单，但如果 worker 在不同的机器上运行，就需要一个像 GFS 这样的全局文件系统。

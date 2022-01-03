@@ -4,9 +4,11 @@ date: 2021-12-16T14:30:00+08:00
 tags: ["6.824", "翻译", "note"]
 ---
 
-# 6.824 2021 课程一：介绍
+# 6.824 2021 Lecture 1: Introduction
 
 [笔记源地址](https://pdos.csail.mit.edu/6.824/notes/l01.txt)
+
+[MapReduce 论文](http://static.googleusercontent.com/media/research.google.com/zh-CN//archive/mapreduce-osdi04.pdf)
 
 ## 6.824: 分布式系统
 

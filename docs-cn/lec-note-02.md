@@ -3,7 +3,7 @@ title: "lecture-note-02"
 date: 2021-12-16T14:30:00+08:00
 tags: ["6.824", "翻译", "note"]
 ---
-# 6.824 2021 课程二：RPC 和 多线程
+# 6.824 2021 Lecture 2: Infrastructure: RPC and threads
 
 [笔记源地址](https://pdos.csail.mit.edu/6.824/notes/l-rpc.txt)
 
